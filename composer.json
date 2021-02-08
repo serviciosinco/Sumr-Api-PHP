@@ -1,0 +1,25 @@
+{
+	"config": {
+        "vendor-dir": "src/.vendor"
+    },
+    "require": {
+        "facebook/graph-sdk": "^5.7",
+        "facebook/php-ads-sdk": "2.8.*",
+        "aws/aws-sdk-php": "^3.91",
+        "guzzlehttp/guzzle": "~6.0",
+        "twilio/sdk": "^6.1",
+        "phpseclib/phpseclib": "~2.0",
+        "google/apiclient":"^2.0",
+        "cosenary/instagram":"2.3",
+        "kreait/firebase-php": "^4.17.0",
+        "phpmailer/phpmailer": "6.1.5",
+        "jdorn/sql-formatter": "1.2.17",
+        "mercadopago/dx-php": "1.8.0",
+        "firebase/php-jwt": "^5.2",
+		"cbschuld/browser.php": "^1.9",
+		"vlucas/phpdotenv": "^5.3"
+	},
+	"scripts": {
+		"test": "docker-compose -f .devcontainer/docker-compose.yml up --force-recreate"
+	}
+}

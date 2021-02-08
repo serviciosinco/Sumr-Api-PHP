@@ -1,0 +1,1 @@
+<?php define('EC_APRBECCMPG','4224');define('EC_APRBECCMPGUSR','4310');define('EC_APRBECCMZ','4246');define('EC_NEWEC','4245');define('EC_NEWECCMPG','4223');define('EC_NEWECCMPGUSR','4312');define('EC_NEWLEAD','4338');define('EC_NOAPRBECCMPGUSR','4313');define('EC_UECLEADRSP','4249');define('EC_UECNEWLEAD','4250');define('EC_USRRCVRPSSW','1'); ?>

@@ -1,0 +1,5 @@
+Disallow: /update/*
+Disallow: /*/update/*
+
+Disallow: /delete/*
+Disallow: /*/delete/*

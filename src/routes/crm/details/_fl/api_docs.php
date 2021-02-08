@@ -1,0 +1,1 @@
+<iframe src="<?php echo DMN_API; ?>docs/?_r=<?php echo Gn_Rnd(20); ?>&_t=<?php echo CL_ENC ?>" width="100%" height="5000" border="0" style="border:none;"></iframe>

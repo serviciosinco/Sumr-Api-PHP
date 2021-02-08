@@ -1,0 +1,1 @@
+<?php $pth = '../../../includes/'; include($pth .'__inc.php'); ?>
