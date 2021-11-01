@@ -3,7 +3,7 @@
 	"version": "2.0.0",
 	"private": true,
 	"scripts": {
-		"test": "docker-compose -f .devcontainer/docker-compose.yml up",
+		"docker:startz": "docker-compose -f .devcontainer/docker-compose.yml up",
 		"test:rebuild": "docker-compose -f .devcontainer/docker-compose.yml up --build --force-recreate"
 	}
 }

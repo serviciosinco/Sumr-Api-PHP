@@ -31,8 +31,8 @@
 
 	if(defined('SUMR_ENV')){
 		if(SUMR_ENV == 'prd'){
-			define('PBLC_HST', 'sumr-production.cevkibkbmeuq.us-east-1.rds.amazonaws.com');
-			define('PBLC_HST_WRT', 'sumr-production.cevkibkbmeuq.us-east-1.rds.amazonaws.com');
+			define('PBLC_HST', 'sumr-prd.cluster-ro-cevkibkbmeuq.us-east-1.rds.amazonaws.com');
+			define('PBLC_HST_WRT', 'sumr-prd.cluster-cevkibkbmeuq.us-east-1.rds.amazonaws.com');
 		}
 
 	}
